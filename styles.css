@@ -1,0 +1,41 @@
+.stopwatch {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 150px;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#stop {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: hsl(0, 95%, 47%);
+    background-color: hsl(0, 95%, 47%);
+}
+
+#start {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: hsl(118, 99%, 50%);
+    background-color: hsl(118, 99%, 50%);
+}
+
+#reset {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: hsl(215, 99%, 50%);
+    background-color: hsl(215, 99%, 50%);
+}
