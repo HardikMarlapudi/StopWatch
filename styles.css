@@ -39,3 +39,17 @@
     border-color: hsl(215, 99%, 50%);
     background-color: hsl(215, 99%, 50%);
 }
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 96%;
+    z-index: 999;
+}

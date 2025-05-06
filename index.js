@@ -14,12 +14,12 @@ function updateDisplay() {
 }
 
 function startTimer() {
-   startTime = Date.now() - elaspedTime;
-   timerInterval = setInterval(() => {
-    elaspedTime = Date.now() - startTime;
-    updateDisplay();
-   }, 1000);
-    startButton.disabled = true;
+    startTime = Date.now() - elaspedTime;
+    timerInterval = setInterval(function() {
+        elaspedTime = Date.now() - startTime;
+        updateDisplay();
+        startButton.disabled = true;
+    })
 }
 
 function stopTimer() {
@@ -34,7 +34,7 @@ function resetTimer() {
     startButton.disabled = false;
 }
 
-startButton.addEventListener("click", startTimer);
+startButton.addEventListener('click', startTimer);
 stopButton.addEventListener("click", stopTimer);
 resetButton.addEventListener("click", resetTimer);
 
